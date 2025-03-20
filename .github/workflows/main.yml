@@ -16,5 +16,5 @@ jobs:
       with:
         target-server: iad1-shared-b7-20.dreamhost.com
         remote-user: jnathanielsmith
-        private-ssh-key: ${{ secrets.private_ssh_key }}
+        private-ssh-key: ${{ secrets.PRIVATE_SSH_KEY }}
         destination-path: /home/jnathanielsmith/jnathanielsmith.com/sst/
